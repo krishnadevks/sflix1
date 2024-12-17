@@ -1,0 +1,90 @@
+/* AdminPage.css */
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+.admin-content {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar ul li a:hover {
+  color: #f4f4f4;
+}
+
+/* Active link for navigation */
+.navbar ul li a.active {
+  color: #4caf50;
+}
+
+/* Additional styling for different sections */
+section {
+  margin-top: 40px;
+}
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Video Player Styling */
+.video-player-container {
+  text-align: center;
+}
+
+.video-player video {
+  max-width: 100%;
+  height: auto;
+}
